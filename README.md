@@ -4,7 +4,7 @@ This is a [ctrlp.vim][ctrlp] extension which can be used to get different matchi
 
 This extension uses an adapted version of [CommandT][commandt] matching, big thanks to @wincent!
 
-## Advantages
+## Advantages and features
 - Matcher, written in C, can provide significant speed improvement when working on large projects with 10000+ files, e.g [Metasploit][metasploit]. Dont forget to set ``g:ctrlp_max_files`` option to 0 or 10000+ if you're working on such projects.
 - In some cases you can get more precise matching results ( e.g. when trying to match exact file name like ``exe.rb``)
 
